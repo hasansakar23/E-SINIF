@@ -97,7 +97,7 @@ Sprint sonunda gelinen noktada:
 ## Hedeflere Göre Durum
 
 
-## Retrospektif
+##  Sprint Retrospektif
 
 Bu sprintte, ekip olarak fikir belirleme ve proje dokümantasyonu üzerine çalıştık. Başlangıç sürecinde ekip üyeleri birbirini tanıdı, iletişim düzeni kuruldu ve iş bölümü yapıldı.
 
