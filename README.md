@@ -16,7 +16,6 @@ E-Sınıf, değerlendirme sürecini öğretmen için kolaylaştırırken, öğre
 
 ## Takım Organizasyonu
 
-Sprintin ilk günlerinde ekip üyeleri birbirini tanıma fırsatı buldu.  
 İletişim WhatsApp üzerinden sağlandı ve rollere ekip içi görüş birliğiyle karar verildi.
  
 - Product Owner: Ali Nebi ER 
@@ -47,11 +46,31 @@ Roller, ekip içi değerlendirme ve istek üzerine belirlenmiştir. Her ekip üy
 
 # SPRINT 1 
 
-Bu doküman, Notperest ekibi olarak Sprint 1 boyunca yaptığımız işleri ve geldiğimiz noktayı özetlemek için hazırlanmıştır.
+Bu sprint için belirlenen puan: **30 / 300**
+
+Sprint 1’de odak noktamız proje planlaması, ekip uyumu ve dokümantasyon hazırlıklarıydı. Teknik geliştirmeye temel oluşturacak bu hazırlık süreci aşağıdaki adımlarla tamamlandı:
+
+| İş Kalemi                                                            | Puan | Açıklama                                                                                |
+|----------------------------------------------------------------------|------|------------------------------------------------------------------------------------------|
+| Takım içi tanışma ve rol paylaşımı                                   | 3    | Görev dağılımı yapıldı, iletişim düzeni kuruldu.                                         |
+| Proje fikrinin netleştirilmesi ve isimlendirme                       | 4    | E-Sınıf ismi belirlendi, takım adı olarak Notperest seçildi.                             |
+| Ürün açıklaması, hedef kitle ve temel özelliklerin yazılması         | 4    | README dosyasında proje tanımı ve kullanıcı hedefi açıklandı.                            |
+| GitHub reposunun oluşturulması ve README dosyasının düzenlenmesi     | 2    | Temel yapılar oluşturuldu, içerikler yerli yerinde yazıldı.                              |
+| Product backlog ve kullanıcı hikâyelerinin hazırlanması              | 4    | Kullanıcı odaklı ihtiyaçlar belirlendi ve hikâyeleştirildi.                              |
+| Sprint sürecinin yazılı hale getirilmesi (Sprint Notes)              | 4    | Süreç adımları ve tarih aralıkları net şekilde belgelendi.                               |
+| Sprint Review ve Retrospective yazımı                                | 5    | Ekip içi değerlendirme ve gözlemler sade biçimde aktarıldı.                              |
+| Günlük iletişim şekli/düzeni (Daily Scrum)                           | 2    | WhatsApp üzerinden yapılan iletişim süreci yazıya eklendi.                               |
+| Sprint Board ekran görüntüsü paylaşımı                               | 2    | Yapılan işler ve durumlar görselleştirilerek board üzerinden belgelenmiştir.             |
+
+**Toplam Puan:** `30 / 30`
 
 ## Sprint Review
 
-Bu dosya, Notperest ekibi olarak sprint-1 süresince yürüttüğümüz hazırlık çalışmalarına ait kısa notları ve süreç ilerlemesini içerir.
+Sprint sürecinde ekip içi iletişim sağlıklı şekilde yürütülmüştür. Ürün fikri kısa sürede belirlenmiş ve sprint boyunca dokümantasyon çalışmaları önceliklendirilmiştir.  
+Sprint sonunda gelinen noktada:  
+- Ürün tanımı, hedef kitle ve temel özellikler yazıya döküldü.  
+- Kullanıcı ihtiyaçlarına uygun hikâyeler oluşturulmaya başlandı.  
+- Teknik geliştirme için ihtiyaç duyulacak araçlar (ör. Python, OpenAI API) değerlendirmeye alındı.
 
 
 
