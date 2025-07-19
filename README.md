@@ -115,3 +115,26 @@ Sprint 1, ekip uyumu ve hazırlık açısından verimli geçti.
 Sorumluluklar netti ve dokümantasyon planlandığı gibi tamamlandı.  
 Bir sonraki sprintte teknik uygulamaya geçilecek ve görev dağılımı bu doğrultuda yeniden düzenlenecek.
 
+# SPRINT 2
+## Sprint Review
+Sprint sürecinde ekip içi iletişim sağlıklı şekilde yürütülmüştür. Sprint boyunca tasarım noktasına önem verilmiştir. Scrum Masterda değişikliğe gidilmiştir.
+Sprint sonunda gelinen noktada:  
+- Ürün arayüz tasarımı yapıldı. 
+- Ürün arayüzünün kodlanması başlanıldı ve yeterince ilerlendi.
+- Veritabanı için tasarım yapıldı.
+- Veritabanı SQLite üzerinden oluşturuldu.
+
+##  Sprint Retrospektif
+
+Bu sprintte, ekip olarak arayüz ve veritabanı tasarımı üzerine çalıştık. Tasarımları etkileşimli hale getirdik.
+
+### İyi Giden Noktalar
+- Tasarım aşamasında sade ve titiz çalışıldı. 
+- Belge içerikleri özenli ve anlaşılır şekilde yazıldı. 
+
+### Geliştirilebilecek Alanlar
+- Back-ende bu sprintte başlanılması gerekiyordu.
+  
+## Genel Değerlendirme
+Sprint 2, tasarım ve kodlama açısından verimli geçti.  
+Ekip içerisindeki rolleri baştan gözden geçirdik.
