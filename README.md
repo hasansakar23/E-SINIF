@@ -117,7 +117,7 @@ Bir sonraki sprintte teknik uygulamaya geçilecek ve görev dağılımı bu doğ
 
 # SPRINT 2
 
-Bu sprint için belirlenen puan: **150 / 300**
+Bu sprint için belirlenen puan: **150 / 270**
 
 Sprint 2’de odak noktamız, arayüz tasarımı ve veritabanı entegrasyonuyla ürünün temel yapısını oluşturmaktı.
 
@@ -159,6 +159,9 @@ Sprint sonunda gelinen noktada:
 
 ## Product Backlog
 [→ Miro Product Backlog'umuza buradan ulaşabilirsiniz](https://miro.com/app/board/uXjVIg7ztw4=/)
+
+Aşağıda Sprint 2 görevlerinin dağılımını gösteren Miro ekran görüntüsü yer almaktadır:
+![Sprint Board](Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-07-20%20215611.png)
 
 ##  Sprint Retrospektif
 
