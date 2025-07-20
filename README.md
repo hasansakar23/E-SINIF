@@ -135,6 +135,14 @@ Sprint 2’de odak noktamız, arayüz tasarımı ve veritabanı entegrasyonuyla 
 
 **Toplam Puan: 150 / 150**
 
+## Sprint Review
+Sprint sürecinde ekip içi iletişim sağlıklı şekilde yürütülmüştür. Sprint boyunca tasarım noktasına önem verilmiştir. Scrum Masterda değişikliğe gidilmiştir.
+Sprint sonunda gelinen noktada:  
+- Ürün arayüz tasarımı yapıldı. 
+- Ürün arayüzünün kodlanması başlanıldı ve yeterince ilerlendi.
+- Veritabanı için tasarım yapıldı.
+- Veritabanı SQLite üzerinden oluşturuldu.
+- 
 ##  Sprint Process – Zaman Çizelgesi
 
 ### İlk Günler (7–13 Temmuz)
@@ -149,14 +157,8 @@ Sprint 2’de odak noktamız, arayüz tasarımı ve veritabanı entegrasyonuyla 
 - SQLite tabanlı veritabanı oluşturuldu ve entegre edildi.
 - Sprint Review ve Retrospektif metinleri yazıldı.
 
-
-## Sprint Review
-Sprint sürecinde ekip içi iletişim sağlıklı şekilde yürütülmüştür. Sprint boyunca tasarım noktasına önem verilmiştir. Scrum Masterda değişikliğe gidilmiştir.
-Sprint sonunda gelinen noktada:  
-- Ürün arayüz tasarımı yapıldı. 
-- Ürün arayüzünün kodlanması başlanıldı ve yeterince ilerlendi.
-- Veritabanı için tasarım yapıldı.
-- Veritabanı SQLite üzerinden oluşturuldu.
+## Product Backlog
+[→ Miro Product Backlog'umuza buradan ulaşabilirsiniz](https://miro.com/app/board/uXjVIg7ztw4=/)
 
 ##  Sprint Retrospektif
 
