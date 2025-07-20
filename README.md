@@ -83,6 +83,7 @@ Sprint sonunda gelinen noktada:
 - GitHub repo oluşturuldu.  
 - README ve backlog içerikleri yazıldı.  
 - Takım ismi olarak **Notperest** belirlendi.  
+
 ## Gözlemler ve Gelişim Alanları
 
 - Anonim kimliğin her ödev sonrası otomatik olarak yenilenmesi konusu teknik düzeyde planlanıyor.  
@@ -142,7 +143,12 @@ Sprint sonunda gelinen noktada:
 - Ürün arayüzünün kodlanması başlanıldı ve yeterince ilerlendi.
 - Veritabanı için tasarım yapıldı.
 - Veritabanı SQLite üzerinden oluşturuldu.
-- 
+### Daily Scrum
+
+Aşağıda, ekip içi günlük iletişimden bir örnek ekran görüntüsü yer almaktadır:
+
+![Daily Scrum](http://github.com/hasansakar23/E-SINIF/blob/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-07-20%20221130.png?raw=true)
+
 ##  Sprint Process – Zaman Çizelgesi
 
 ### İlk Günler (7–13 Temmuz)
