@@ -116,6 +116,40 @@ Sorumluluklar netti ve dokümantasyon planlandığı gibi tamamlandı.
 Bir sonraki sprintte teknik uygulamaya geçilecek ve görev dağılımı bu doğrultuda yeniden düzenlenecek.
 
 # SPRINT 2
+
+Bu sprint için belirlenen puan: **30 / 300**
+
+Sprint 2’de odak noktamız, arayüz tasarımı ve veritabanı entegrasyonuyla ürünün temel yapısını oluşturmaktı.
+
+| İş Kalemi                                                  | Puan | Açıklama                                                                 |
+|------------------------------------------------------------|------|--------------------------------------------------------------------------|
+| Ürün arayüz tasarımının oluşturulması                      | 25   | Arayüz çizimleri yapıldı, kullanıcı dostu tasarım geliştirildi.          |
+| Arayüz kodlamasına başlanması                              | 25   | HTML/CSS/JS kullanılarak frontend geliştirme başlatıldı.                 |
+| SQLite tabanlı veritabanı tasarımı                         | 20   | Veritabanı yapısı ve tablo ilişkileri oluşturuldu.                       |
+| Veritabanının projeye entegre edilmesi                     | 15   | Arayüzle veritabanı arasında temel bağlantılar test edildi.              |
+| Tasarımın etkileşimli hale getirilmesi                     | 20   | Butonlar, formlar, giriş alanları gibi unsurlar eklendi.                 |
+| Takım içi rol güncellemesi ve Scrum Master değişikliği     | 10   | Rol değişikliği ekip kararıyla yapıldı.                                  |
+| Sprint Review ve Retrospektif yazımı                       | 15   | Sprint sonundaki değerlendirmeler yazılı hale getirildi.                 |
+| Sprint süreci boyunca iletişim ve iş birliği               | 10   | WhatsApp üzerinden düzenli iletişim sağlandı.                            |
+| GitHub'a kodların yüklenmesi (başlatıldıysa)               | 10   | Kodlar GitHub'da yüklendiyse bu madde uygulanır.                         |
+
+**Toplam Puan: 150 / 300**
+
+##  Sprint Process – Zaman Çizelgesi
+
+### İlk Günler (7–13 Temmuz)
+- Ürün arayüz tasarımı yapıldı.
+- Sayfa yapısı ve kullanıcı bileşenleri belirlendi.
+- Veritabanı yapısı planlandı.
+- Takım içi rol değişikliği kararlaştırıldı.
+
+### Son Günler (14–20 Temmuz)
+- Arayüzün HTML/CSS kodlaması başlatıldı.
+- Arayüz etkileşimli hâle getirildi (buton, form vb.).
+- SQLite tabanlı veritabanı oluşturuldu ve entegre edildi.
+- Sprint Review ve Retrospektif metinleri yazıldı.
+
+
 ## Sprint Review
 Sprint sürecinde ekip içi iletişim sağlıklı şekilde yürütülmüştür. Sprint boyunca tasarım noktasına önem verilmiştir. Scrum Masterda değişikliğe gidilmiştir.
 Sprint sonunda gelinen noktada:  
