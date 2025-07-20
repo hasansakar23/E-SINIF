@@ -127,6 +127,7 @@ Sprint sonunda gelinen noktada:
 ##  Sprint Retrospektif
 
 Bu sprintte, ekip olarak arayüz ve veritabanı tasarımı üzerine çalıştık. Tasarımları etkileşimli hale getirdik.
+Sprint süresince ortaya çıkan tasarıma ve çalışmaya bu bağlantı üzerinden erişebilirsiniz: [buradan]([https://drive.google.com/drive/folders/1v8xIpiVUeH5tLkQxgVq88m0z8aU4spU3?usp=sharing](https://drive.google.com/drive/folders/19sjM13FoTyYWb_7hwULeULt2ZUcQOO49?usp=sharing))
 
 ### İyi Giden Noktalar
 - Tasarım aşamasında sade ve titiz çalışıldı. 
