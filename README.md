@@ -46,7 +46,7 @@ Roller, ekip içi değerlendirme ve istek üzerine belirlenmiştir. Her ekip üy
 
 # SPRINT 1 
 
-Bu sprint için belirlenen puan: **30 / 300**
+Bu sprint için belirlenen puan: ** 150/ 300**
 
 Sprint 1’de odak noktamız proje planlaması, ekip uyumu ve dokümantasyon hazırlıklarıydı. Teknik geliştirmeye temel oluşturacak bu hazırlık süreci aşağıdaki adımlarla tamamlandı:
 
