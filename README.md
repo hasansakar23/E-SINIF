@@ -46,7 +46,7 @@ Roller, ekip içi değerlendirme ve istek üzerine belirlenmiştir. Her ekip üy
 
 # SPRINT 1 
 
-Bu sprint için belirlenen puan: ** 150/ 300**
+Bu sprint için belirlenen puan: ** 30/ 300**
 
 Sprint 1’de odak noktamız proje planlaması, ekip uyumu ve dokümantasyon hazırlıklarıydı. Teknik geliştirmeye temel oluşturacak bu hazırlık süreci aşağıdaki adımlarla tamamlandı:
 
@@ -117,7 +117,7 @@ Bir sonraki sprintte teknik uygulamaya geçilecek ve görev dağılımı bu doğ
 
 # SPRINT 2
 
-Bu sprint için belirlenen puan: **30 / 300**
+Bu sprint için belirlenen puan: **150 / 300**
 
 Sprint 2’de odak noktamız, arayüz tasarımı ve veritabanı entegrasyonuyla ürünün temel yapısını oluşturmaktı.
 
@@ -133,7 +133,7 @@ Sprint 2’de odak noktamız, arayüz tasarımı ve veritabanı entegrasyonuyla 
 | Sprint süreci boyunca iletişim ve iş birliği               | 10   | WhatsApp üzerinden düzenli iletişim sağlandı.                            |
 | GitHub'a kodların yüklenmesi (başlatıldıysa)               | 10   | Kodlar GitHub'da yüklendiyse bu madde uygulanır.                         |
 
-**Toplam Puan: 150 / 300**
+**Toplam Puan: 150 / 150**
 
 ##  Sprint Process – Zaman Çizelgesi
 
