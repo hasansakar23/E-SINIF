@@ -88,3 +88,10 @@ def get_assignments_by_teacher(db: Session, teacher_id: str):
 
 def get_evaluations_by_class(db: Session, class_id: str):
     return db.query(models.Evaluation).join(models.Assignment).join(models.Student).filter(models.Student.class_id == class_id).all()
+
+def create_ai_evaluation(db: Session, evaluation: schemas.EvaluationCreate):
+    db_evaluation = models.Evaluation(**evaluation.dict())
+    db.add(db_evaluation)
+    db.commit()
+    db.refresh(db_evaluation)
+    return db_evaluation

@@ -1,51 +1,71 @@
-import google.generativeai as genai
-from fastapi import UploadFile
+import os
 import json
 import tempfile
+from fastapi import UploadFile
 from PyPDF2 import PdfReader
+from dotenv import load_dotenv
+import google.generativeai as genai
 
-GENAI_API_KEY = "....."
+# .env dosyasını yükle
+load_dotenv()
 
-genai.configure(api_key=GENAI_API_KEY)
+# Gemini API'yi yapılandır
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 model = genai.GenerativeModel("gemini-pro")
 
+# PDF dosyasından metin çıkaran yardımcı fonksiyon
 def extract_text_from_pdf(file: UploadFile) -> str:
     with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
         tmp.write(file.file.read())
         tmp_path = tmp.name
 
     reader = PdfReader(tmp_path)
-    text = "\n".join([page.extract_text() for page in reader.pages if page.extract_text()])
+    text = "\n".join(page.extract_text() for page in reader.pages if page.extract_text())
     return text
 
+# Gemini ile değerlendirme yapan ana fonksiyon
 def evaluate_homework_with_gemini(text: str) -> dict:
     prompt = f"""
-    Aşağıdaki metni değerlendir:
+Aşağıdaki ödevi aşağıdaki 5 kritere göre değerlendir:
 
-    METİN:
-    {text}
+1. Anlatım Bütünlüğü (coherence)
+2. Kaynak Kullanımı (sources)
+3. Yorum Gücü (reasoning)
+4. Dil ve Anlatım (language)
+5. Genel Geri Bildirim (feedback)
 
-    Değerlendirme Kriterleri:
-    - Anlatım Bütünlüğü (1–5)
-    - Kaynak Kullanımı (1–5)
-    - Yorum Gücü (1–5)
-    - Dil ve Anlatım (1–5)
-    - Geri Bildirim
+Her ölçüt için % puan ver ve son olarak bir toplam puan (total_score) hesapla.
 
-    Cevabını şu JSON formatında döndür:
-    {{
-      "coherence": int,
-      "sources": int,
-      "reasoning": int,
-      "language": int,
-      "feedback": string,
-      "total_score": int
-    }}
-    """
+Lütfen cevabı yalnızca şu JSON formatında ver:
 
+{{
+  "coherence": int,
+  "sources": int,
+  "reasoning": int,
+  "language": int,
+  "feedback": "metinsel yorum",
+  "total_score": int
+}}
+
+ÖDEV METNİ:
+\"\"\"
+{text}
+\"\"\"
+"""
+
+    # Gemini'ye isteği gönder
     response = model.generate_content(prompt)
+
+    # Geri dönen cevabı terminalde göster (debug için)
+    print("💬 Gemini'den gelen yanıt:")
+    print(response.text)
+
+    # JSON parse etmeyi dene
     try:
         result = json.loads(response.text)
         return result
     except Exception as e:
-        return {"error": str(e), "raw": response.text}
+        return {
+            "error": str(e),
+            "raw": response.text
+        }

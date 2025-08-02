@@ -99,3 +99,22 @@ class EvaluationOut(BaseModel):
 
     class Config:
         orm_mode = True
+
+
+        class EvaluationBase(BaseModel):
+    coherence: int
+    sources: int
+    reasoning: int
+    language: int
+    feedback: str
+    total_score: float
+
+class EvaluationCreate(EvaluationBase):
+    assignment_id: int
+
+class EvaluationOut(EvaluationBase):
+    id: int
+    assignment_id: int
+
+    class Config:
+        orm_mode = True

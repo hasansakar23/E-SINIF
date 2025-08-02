@@ -13,6 +13,8 @@ def get_db():
         yield db
     finally:
         db.close()
+evaluations = relationship("Evaluation", back_populates="assignment")
+
 
 @app.post("/teacher", response_model=schemas.TeacherOut)
 def create_teacher(teacher: schemas.TeacherCreate, db: Session = Depends(get_db)):
@@ -49,3 +51,25 @@ def auto_evaluate(file: UploadFile = File(...)):
     text = extract_text_from_pdf(file)
     result = evaluate_homework_with_gemini(text)
     return result
+
+from dotenv import load_dotenv
+import os
+
+load_dotenv(dotenv_path=".env")  # 👈 burada açıkça dosya adı belirtildi
+
+print("API KEY:", os.getenv("GEMINI_API_KEY"))
+
+
+class Evaluation(Base):
+    __tablename__ = "evaluations"
+
+    id = Column(Integer, primary_key=True, index=True)
+    assignment_id = Column(Integer, ForeignKey("assignments.id"))
+    coherence = Column(Integer)
+    sources = Column(Integer)
+    reasoning = Column(Integer)
+    language = Column(Integer)
+    feedback = Column(String)
+    total_score = Column(Float)
+
+    assignment = relationship("Assignment", back_populates="evaluations")
