@@ -1,13 +1,10 @@
 # Sprint 3
 ## Sprint Review 
-
 Hedef: Yapay zekâ ile ödev değerlendirme sisteminin çalışır hale getirilmesi. Ürünün son teslim haline getirilmesi.
-
 Tamamlananlar:
 	Ödev yükleme ve değerlendirme akışı çalışır hale getirildi.
 	Gemini API ile temel geri bildirim üretimi sağlandı.
 	FastAPI ile  backend yazıldı.
- 
 ## Sprint Puanlaması
  Hedeflenen:180 puandı
  Başarılan: 100 puan
@@ -16,7 +13,7 @@ Tamamlananlar:
 
  <img width="1542" height="1054" alt="image" src="https://github.com/user-attachments/assets/1ea9ef7e-ad32-49fc-a6c6-fb7ea2c0b9e6" />
  
-### Ürün Resimleri
+## Ürün Resimleri
 
 <img width="2940" height="1676" alt="image" src="https://github.com/user-attachments/assets/322e1a7c-2b09-4d36-bc49-9e24ddaddb93" />
 <img width="1760" height="1648" alt="image" src="https://github.com/user-attachments/assets/112d9145-c6ed-4d40-b038-ddfa89a7b47f" />
